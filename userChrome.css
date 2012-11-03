@@ -1,0 +1,268 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*Scrollbars*/
+
+notificationbox {
+    overflow-x: hidden;
+}
+browser[type="content-primary"], browser[type="content-targetable"] {
+    overflow-y: scroll;
+    margin-right: -15px;
+}
+
+/* HIDDEN ELEMENTS */
+#identity-box,
+#urlbar-icons > image,
+#urlbar-container dropmarker,
+#appmenu-button .button-text,
+#appmenu-button .button-menu-dropmarker
+{
+    display:none!important;
+}
+#menubar, 
+#statusbar, 
+#toolbox, 
+#toolbar, .tabbrowser-tabs, .searchbar, .toolbarbutton,
+#titlebar-buttonbox-container,
+#findbar, 
+#toolbox-container, 
+#toolbar-container, 
+#sidebarheader, 
+#urlbar,
+#urlbar-container, 
+#bookmarkstoolbar,
+#bookmarkstoolbar-container
+{
+  background:#0D1011 !important;
+  border-style: none !important; 
+  -moz-appearance: none !important;
+}
+
+#main
+{
+	background:#0D1011!important;
+	-moz-appearance: none !important;
+}
+
+/* BUTTONS */
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon,
+#appmenu-button .button-icon
+{
+    list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrsVk1IG0EU3s3mx1RXY2qxaa0ULFakUogUESUnPaS0Wlo1oifbQ0AUDx704EGIeBAkUXOzEq0/kHpose2h2IbexUKLFA8VokIPKaghrfmpyfa9dELHcTai0FsXNpPZ+d43b9773tsVFUUR/l+CoM38EUWRXZPg1sCdgjuJDzJBI9gT61kukeyFNgrBJ8n/NC9waii+FGWr9vzUdcKb8VWifBVpG8RpVByXent7rywtLSX6+voKeAB8juuII5sIKk5qAZs/OzvrWVxc3Jufn38zPT39hASGjr5mYWEh0NTUVEDxSTgHuy+Ei5tMWP9IJ5W9enp6isDX+OTk5H3CfcKGR64dGhq6UVtbu7OxsXFzYmIizCPH57iOOMRzHNE0NzcXwsE/GAyGYgjE4MrKyrWDgwOvTqezQTAeMwFMra+vO9rb27/bbDYZ5rq6urpch8OxOzMzc0dFDZlsl2VJhuD1eiM4ms1mNySlGLlZGzYQksvlulVZWbm5trZ2fXR0dCuL7JO4jjjEox1NDGuXW1pa3oI0S6uqql5Fo9Ejv9+/Bwp6HYlElnNyclrZQLjd7tDY2JjZ6XRuw9zY3d39rbOz81IgEIhwykWPGLgNsEd6JHO9mnrC4bDParW6MRDE5m/t0nXf1dWV19jYGIHM3B4fH9+Exwm25jj9RN/f319RXV39aXV1Vfb5fD8yzjY0NBQBZxAcGITDvxgYGNhFc1BKUVtb2zYc0gzzGFXLAsmWEaQc7ujowDKJwv1LpRzKyIHEP+4piN0CXiuMRxTvBeD7CXxmUOjLUCj0zGKxPIV5Lqwdps+FP9SbQyJGcciGhZUbg03jEYd4tOPI0zA3N/fe4/E8pDKlnZqaegAOvSNZPLY/9IRCOCSWYz7wHoGUr3J4aUWYAIdqMbGKoHiNBJOHZQx7f4W5QnwWeM0SyyAGkTLV19cHQe4VWWoPy6gCcYhHO04ZJROJxHOTyfQIDn8XlHARxnuyLLfGYrFlBq+x2+0y9IQg9IRSVAKWSU1Nzfbw8DDrR4qoFRUQJ0qIk3mC108IJjkyMhLc3993CRyAwPmWwAAZscsTqfKwOrJuzNLRUZc6aIxOVADgD3HEOeEVqcyl5Q4dvph+a5SXl8uojJKSEr3KHnqw+0yUIPBKmcGIRCEKrUhRpe6572cGe9r7nQ5G5j0unvM7QiL4835HsJhjnLwekfU6C/Ys17/6uj3LuX4LMACwT+lvQQrZSgAAAABJRU5ErkJggg==")!important;
+}
+#back-button .toolbarbutton-icon
+{ 
+    -moz-image-region:rect(0, 11px, 11px, 0)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#forward-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 22px, 11px, 11px)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 33px, 11px, 22px)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 44px, 11px, 33px)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#new-tab-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 55px, 11px, 44px)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#appmenu-button .button-icon
+{
+    -moz-image-region:rect(0, 66px, 11px, 55px)!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#main-window[sizemode="normal"] .toolbarbutton-1
+{
+    margin-top:0px!important;
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#main-window *[id*="-button"]
+{
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+#main-window *[id*="-button"]:hover
+{
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
+
+/* Bookmarks BAR */
+#bookmarkstoolbar, #bookmarkstoolbar-container
+{
+    background:#0D1011!important;
+    border:0!important;
+    color:#ffffff!important;
+	-moz-appearance: none !important;
+}
+
+/* URL BAR */
+#urlbar
+{
+    background:#0D1011!important;
+    border:0!important;
+    color:#5acbbe!important;
+    -moz-appearance: none !important;
+
+}
+#urlbar:hover
+{
+    color:#84cbbe!important;
+}
+#urlbar #notification-popup-box
+{
+    background:#0D1011!important;
+    border-right:1px solid #43648E!important;
+    max-height:10px!important;
+    max-width:16px!important;
+    border-radius:0px 0 0 0px!important;
+    -moz-border-image:none!important;
+    -moz-margin-end:0!important;
+}
+#urlbar #notification-popup-box .notification-anchor-icon
+{
+    max-height:10px!important;
+    max-width:10px!important;
+}
+#main-window[sizemode="fullscreen"] #urlbar,
+#main-window[sizemode="maximized"] #urlbar,
+#main-window[sizemode="maximized"] #urlbar
+{
+    margin:0px 1px 0!important;
+}
+
+/* TABS */
+#main-window #tabbrowser-tabs tab
+{
+    font-family:"Terminus"!important;
+    font-size: 12px!important;
+    border:0px!important;
+    background:#0D1011!important;
+    color:#828282!important;
+    -moz-appearance: none !important;
+}
+
+#main-window[sizemode="maximized"] #tabbrowser-tabs tab,
+#main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
+#main-window[sizemode="normal"] #tabbrowser-tabs tab
+{
+    border-left:1px solid #DCCBBB!important;
+    border-top:1px solid #DCCBBB!important;
+    border-right:1px solid #DCCBBB!important;
+    margin:1px 1px 0!important;
+    max-height:10px!important;
+    padding-left:5px!important;
+    border-radius:0 0 0px 0px!important;
+    -moz-appearance: none !important;
+}
+#main-window #tabbrowser-tabs tab[selected]
+{
+	background:#0D1011!important;
+    color:#76B2B2!important;
+}
+#main-window #tabbrowser-tabs tab .tab-throbber,
+#main-window #tabbrowser-tabs tab .tab-icon-image
+{
+    max-height:10px!important;
+    max-width:10px!important;
+    margin-top:10px!important;
+}
+#main-window #tabbrowser-tabs tab[fadein]
+{
+    -moz-transition:all .2s ease-in-out!important;
+}
+#main-window #tabbrowser-tabs tab:not([selected]):hover
+{
+    color:#76B2B2!important;
+}
+#main-window #tabbrowser-tabs tab[fadein]:not([pinned])
+{
+    min-width:30px!important;
+    max-width:100px!important;
+}
+#main-window #tabbrowser-tabs tab[pinned]
+{
+    max-width:24px!important;
+    min-width:24px!important;
+}
+#main-window #tabbrowser-tabs .scrollbutton-up,
+#main-window #tabbrowser-tabs .scrollbutton-down,
+#main-window #tabbrowser-tabs tab .tab-close-button,
+#main-window #tabbrowser-tabs tab[pinned] .tab-close-button,
+#main-window #tabbrowser-tabs tab .tab-icon-image
+{
+    display:none!important;
+}
+
+/* MAIN WINDOW */
+#main-window #urlbar,
+#main-window #urlbar-container
+{
+    font-family:"Terminus"!important;
+    font-size: 12px!important;
+    max-width:140px!important;
+}
+
+#main-window[sizemode="fullscreen"] #TabsToolbar,
+#main-window[sizemode="normal"] #TabsToolbar,
+#main-window[sizemode="maximized"] #TabsToolbar
+{
+    margin:0px -14px 0 0!important;
+    padding:0 0px 0px 0px!important;
+}
+#main-window #browser-border-start
+{
+    background:#0D1011!important;
+    border:0!important;
+}
+#main-window #appmenu-button
+{
+    background:#0D1011!important;
+    border:0!important;
+    padding:1px 5px!important;
+    min-width:16px!important;
+    box-shadow:none!important;
+    -moz-appearance: none !important;
+}
+
+#main-window[sizemode="fullscreen"] #appmenu-button,
+#main-window[sizemode="maximized"] #appmenu-button,
+#main-window[sizemode="normal"] #appmenu-button
+{
+    margin:0!important;
+}
+
+/*Removes background From Chrome*/
+#appcontent,
+#appcontent > #content,
+#appcontent > #content > tabbox > tabpanels
+{
+    background:#0D1011!important;
+    -moz-appearance: none !important;
+}
