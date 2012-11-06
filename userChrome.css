@@ -33,14 +33,14 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #bookmarkstoolbar,
 #bookmarkstoolbar-container
 {
-  background:#0D1011 !important;
+  background:#252627 !important;
   border-style: none !important; 
   -moz-appearance: none !important;
 }
 
 #main
 {
-	background:#0D1011!important;
+	background:#252627!important;
 	-moz-appearance: none !important;
 }
 
@@ -60,20 +60,20 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #back-button .toolbarbutton-icon
 { 
     -moz-image-region:rect(0, 11px, 11px, 0)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #forward-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 22px, 11px, 11px)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #reload-button .toolbarbutton-icon,
 #urlbar-reload-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 33px, 11px, 22px)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #stop-button .toolbarbutton-icon,
@@ -81,42 +81,42 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 44px, 11px, 33px)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #new-tab-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 55px, 11px, 44px)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #appmenu-button .button-icon
 {
     -moz-image-region:rect(0, 66px, 11px, 55px)!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window[sizemode="normal"] .toolbarbutton-1
 {
     margin-top:0px!important;
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]
 {
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]:hover
 {
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 
 /* Bookmarks BAR */
 #bookmarkstoolbar, #bookmarkstoolbar-container
 {
-    background:#0D1011!important;
+    background:#252627!important;
     border:0!important;
     color:#ffffff!important;
 	-moz-appearance: none !important;
@@ -125,7 +125,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 /* URL BAR */
 #urlbar
 {
-    background:#0D1011!important;
+    background:#252627!important;
     border:0!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
@@ -137,7 +137,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 }
 #urlbar #notification-popup-box
 {
-    background:#0D1011!important;
+    background:#252627!important;
     border-right:1px solid #43648E!important;
     max-height:10px!important;
     max-width:16px!important;
@@ -163,7 +163,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
     font-family:"Terminus"!important;
     font-size: 12px!important;
     border:0px!important;
-    background:#0D1011!important;
+    background:#252627!important;
     color:#828282!important;
     -moz-appearance: none !important;
 }
@@ -172,19 +172,22 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-    border-left:1px solid #DCCBBB!important;
-    border-top:1px solid #DCCBBB!important;
-    border-right:1px solid #DCCBBB!important;
+    border-left:1px solid #479ebb!important;
+#    border-top:1px solid #DCCBBB!important;
+    border-right:1px solid #479ebb!important;
+#    border-bottom:1px solid #DCCBBB!important;
     margin:1px 1px 0!important;
-    max-height:10px!important;
+    max-height:8px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
+    
+    http://boards.4chan.org/g/res/28855283
 }
 #main-window #tabbrowser-tabs tab[selected]
 {
-	background:#0D1011!important;
-    color:#76B2B2!important;
+	background:#252627!important;
+    color:#479ebb!important;
 }
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
@@ -199,7 +202,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#76B2B2!important;
+    color:#479ebb!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
@@ -238,12 +241,12 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 }
 #main-window #browser-border-start
 {
-    background:#0D1011!important;
+    background:#252627!important;
     border:0!important;
 }
 #main-window #appmenu-button
 {
-    background:#0D1011!important;
+    background:#252627!important;
     border:0!important;
     padding:1px 5px!important;
     min-width:16px!important;
@@ -263,6 +266,6 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #appcontent > #content,
 #appcontent > #content > tabbox > tabpanels
 {
-    background:#0D1011!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
