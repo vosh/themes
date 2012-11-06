@@ -181,8 +181,6 @@ browser[type="content-primary"], browser[type="content-targetable"] {
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
-    
-    http://boards.4chan.org/g/res/28855283
 }
 #main-window #tabbrowser-tabs tab[selected]
 {
