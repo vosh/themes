@@ -127,9 +127,9 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 {
     background:#252627!important;
     border:0!important;
+    border-right:1px solid #479ebb!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
-
 }
 #urlbar:hover
 {
@@ -139,7 +139,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 {
     background:#252627!important;
     border-right:1px solid #43648E!important;
-    max-height:10px!important;
+    max-height:15px!important;
     max-width:16px!important;
     border-radius:0px 0 0 0px!important;
     -moz-border-image:none!important;
@@ -172,7 +172,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-    border-left:1px solid #479ebb!important;
+#    border-left:1px solid #479ebb!important;
 #    border-top:1px solid #DCCBBB!important;
     border-right:1px solid #479ebb!important;
 #    border-bottom:1px solid #DCCBBB!important;
