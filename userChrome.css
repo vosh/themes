@@ -19,29 +19,30 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 {
     display:none!important;
 }
-#menubar, 
-#statusbar, 
-#toolbox, 
+#menubar,
+#statusbar,
+#toolbox,
 #toolbar, .tabbrowser-tabs, .searchbar, .toolbarbutton,
 #titlebar-buttonbox-container,
-#findbar, 
-#toolbox-container, 
-#toolbar-container, 
-#sidebarheader, 
+#findbar,
+#toolbox-container,
+#toolbar-container,
+#sidebarheader,
 #urlbar,
-#urlbar-container, 
+#urlbar-container,
 #bookmarkstoolbar,
 #bookmarkstoolbar-container
 {
   background:#252627 !important;
-  border-style: none !important; 
+  border-style: none !important;
+  max-height:20px!important;
   -moz-appearance: none !important;
 }
 
 #main
 {
-	background:#252627!important;
-	-moz-appearance: none !important;
+background:#252627!important;
+-moz-appearance: none !important;
 }
 
 /* BUTTONS */
@@ -58,7 +59,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
     list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrsVk1IG0EU3s3mx1RXY2qxaa0ULFakUogUESUnPaS0Wlo1oifbQ0AUDx704EGIeBAkUXOzEq0/kHpose2h2IbexUKLFA8VokIPKaghrfmpyfa9dELHcTai0FsXNpPZ+d43b9773tsVFUUR/l+CoM38EUWRXZPg1sCdgjuJDzJBI9gT61kukeyFNgrBJ8n/NC9waii+FGWr9vzUdcKb8VWifBVpG8RpVByXent7rywtLSX6+voKeAB8juuII5sIKk5qAZs/OzvrWVxc3Jufn38zPT39hASGjr5mYWEh0NTUVEDxSTgHuy+Ei5tMWP9IJ5W9enp6isDX+OTk5H3CfcKGR64dGhq6UVtbu7OxsXFzYmIizCPH57iOOMRzHNE0NzcXwsE/GAyGYgjE4MrKyrWDgwOvTqezQTAeMwFMra+vO9rb27/bbDYZ5rq6urpch8OxOzMzc0dFDZlsl2VJhuD1eiM4ms1mNySlGLlZGzYQksvlulVZWbm5trZ2fXR0dCuL7JO4jjjEox1NDGuXW1pa3oI0S6uqql5Fo9Ejv9+/Bwp6HYlElnNyclrZQLjd7tDY2JjZ6XRuw9zY3d39rbOz81IgEIhwykWPGLgNsEd6JHO9mnrC4bDParW6MRDE5m/t0nXf1dWV19jYGIHM3B4fH9+Exwm25jj9RN/f319RXV39aXV1Vfb5fD8yzjY0NBQBZxAcGITDvxgYGNhFc1BKUVtb2zYc0gzzGFXLAsmWEaQc7ujowDKJwv1LpRzKyIHEP+4piN0CXiuMRxTvBeD7CXxmUOjLUCj0zGKxPIV5Lqwdps+FP9SbQyJGcciGhZUbg03jEYd4tOPI0zA3N/fe4/E8pDKlnZqaegAOvSNZPLY/9IRCOCSWYz7wHoGUr3J4aUWYAIdqMbGKoHiNBJOHZQx7f4W5QnwWeM0SyyAGkTLV19cHQe4VWWoPy6gCcYhHO04ZJROJxHOTyfQIDn8XlHARxnuyLLfGYrFlBq+x2+0y9IQg9IRSVAKWSU1Nzfbw8DDrR4qoFRUQJ0qIk3mC108IJjkyMhLc3993CRyAwPmWwAAZscsTqfKwOrJuzNLRUZc6aIxOVADgD3HEOeEVqcyl5Q4dvph+a5SXl8uojJKSEr3KHnqw+0yUIPBKmcGIRCEKrUhRpe6572cGe9r7nQ5G5j0unvM7QiL4835HsJhjnLwekfU6C/Ys17/6uj3LuX4LMACwT+lvQQrZSgAAAABJRU5ErkJggg==")!important;
 }
 #back-button .toolbarbutton-icon
-{ 
+{
     -moz-image-region:rect(0, 11px, 11px, 0)!important;
     background:#252627!important;
     -moz-appearance: none !important;
@@ -119,7 +120,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
     background:#252627!important;
     border:0!important;
     color:#ffffff!important;
-	-moz-appearance: none !important;
+-moz-appearance: none !important;
 }
 
 /* URL BAR */
@@ -139,7 +140,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 {
     background:#252627!important;
     border-right:1px solid #43648E!important;
-    max-height:15px!important;
+    max-height:20px!important;
     max-width:16px!important;
     border-radius:0px 0 0 0px!important;
     -moz-border-image:none!important;
@@ -147,7 +148,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 }
 #urlbar #notification-popup-box .notification-anchor-icon
 {
-    max-height:10px!important;
+    max-height:20px!important;
     max-width:10px!important;
 }
 #main-window[sizemode="fullscreen"] #urlbar,
@@ -165,6 +166,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
     border:0px!important;
     background:#252627!important;
     color:#828282!important;
+    padding-bottom: 5px!important;
     -moz-appearance: none !important;
 }
 
@@ -172,27 +174,28 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-#    border-left:1px solid #479ebb!important;
-#    border-top:1px solid #DCCBBB!important;
+# border-left:1px solid #479ebb!important;
+# border-top:1px solid #DCCBBB!important;
     border-right:1px solid #479ebb!important;
-#    border-bottom:1px solid #DCCBBB!important;
+# border-bottom:1px solid #DCCBBB!important;
     margin:1px 1px 0!important;
-    max-height:8px!important;
+    max-height:20px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
+    -moz-margin-end:0!important;
 }
 #main-window #tabbrowser-tabs tab[selected]
 {
-	background:#252627!important;
+background:#252627!important;
     color:#479ebb!important;
 }
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
-    max-height:10px!important;
+    max-height:20px!important;
     max-width:10px!important;
-    margin-top:10px!important;
+    margin-top:2px!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]
 {
@@ -234,7 +237,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #main-window[sizemode="normal"] #TabsToolbar,
 #main-window[sizemode="maximized"] #TabsToolbar
 {
-    margin:0px -14px 0 0!important;
+    margin:0px 0px 0 0!important;
     padding:0 0px 0px 0px!important;
 }
 #main-window #browser-border-start
@@ -246,7 +249,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 {
     background:#252627!important;
     border:0!important;
-    padding:1px 5px!important;
+    padding:1px 0px!important;
     min-width:16px!important;
     box-shadow:none!important;
     -moz-appearance: none !important;
