@@ -128,7 +128,7 @@ background:#252627!important;
 {
     background:#252627!important;
     border:0!important;
-    border-right:1px solid #479ebb!important;
+    border-right:1px solid #9999CC!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
 }
@@ -174,9 +174,9 @@ background:#252627!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-# border-left:1px solid #479ebb!important;
+# border-left:1px solid #9999CC!important;
 # border-top:1px solid #DCCBBB!important;
-    border-right:1px solid #479ebb!important;
+    border-right:1px solid #9999CC!important;
 # border-bottom:1px solid #DCCBBB!important;
     margin:1px 1px 0!important;
     max-height:20px!important;
@@ -188,7 +188,7 @@ background:#252627!important;
 #main-window #tabbrowser-tabs tab[selected]
 {
 background:#252627!important;
-    color:#479ebb!important;
+    color:#9999CC!important;
 }
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
@@ -203,7 +203,7 @@ background:#252627!important;
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#479ebb!important;
+    color:#9999CC!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
