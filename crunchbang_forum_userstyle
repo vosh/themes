@@ -1,6 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain(crunchbang.org), url(www.crunchbang.org), url-prefix(www.crunchbang.org) {
 
+    *{
+        font-family: terminus !important;
+    }
     body, html, .punwrap {
         background-color: #252627 !important;
     }
@@ -43,10 +46,10 @@
     #box, #punindex, .blockpost {
         border: 0px !important;
     }
-    h2, .tc1, .tc2, .tc3, .tcr, .tcr a {
+    h2, .tc1, .tc2, .tc3, .tcr, .tcr a, .datetimeposted {
         color: #479ebb !important;
     }
-    h3 a, .tclcon a, .linkst a, #onlinelist, #onlinelist a, .pagepost a, .datetimeposted {
+    h3 a, .tclcon a, .linkst a, #onlinelist, #onlinelist a, .pagepost a, .postedit, .postfootright a {
         color: #c64552 !important;
     }
     .forumdesc, .stickytext, .closedtext, .crumbs, .postleft a  {
