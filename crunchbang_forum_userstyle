@@ -98,7 +98,7 @@
         background-color: #252627 !important;
         border-right: 1px solid #618485 !important;
     }
-    #brdwelcome, .crumbs, .pagepost, #onlinelist, .conr, .conl, .subscribelink, .blockform, h2 {
+    #brdwelcome, .crumbs, .pagepost, #onlinelist, .conr, .conl, .subscribelink, .blockform {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
