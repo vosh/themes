@@ -2,7 +2,7 @@
 @-moz-document domain(crunchbang.org), url(www.crunchbang.org), url-prefix(www.crunchbang.org) {
 
     body, html, .punwrap {
-    background-color: #252627 !important;
+        background-color: #252627 !important;
     }
     #s, .activetopics, .codebox, #masthead, #punindex, #brdheader, #brdmenu, #brdwelcome, #brdmain, #fini, #footermenu a, #brdfooternav, .inbox, .blockpost h2, .clearb, .tcmod, .community_info, .quotebox, .tc2, .tc3, .tcl, .tcr {
         background-image: none !important;
@@ -11,7 +11,7 @@
         border: 1px solid #618485 !important;
     }
     .pageslabel a {
-    border-right:  1px solid #618485 !important;
+        border-right:  1px solid #618485 !important;
     }
     .buttons, .inform, .infldset, .pun, .blockform, .quickpost, h2, .crumbs, .clearer, .postlink {
         background-image: none !important;
