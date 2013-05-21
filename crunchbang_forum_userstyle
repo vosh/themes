@@ -10,6 +10,9 @@
         color: #dccebb !important;
         border: 1px solid #618485 !important;
     }
+    .pageslabel a {
+    border-right:  1px solid #618485 !important;
+    }
     .buttons, .inform, .infldset, .pun, .blockform, .quickpost, h2, .crumbs, .clearer, .postlink {
         background-image: none !important;
         background-color: #252627 !important;
@@ -78,6 +81,8 @@
     .postbody {
         background-color: #252627 !important;
         border-left: 1px solid #618485 !important;
+        border-bottom: 1px solid #618485 !important;
+        border-right: 1px solid #618485 !important;
     }
     .blockpost rowodd {
         border: 0px !important;
@@ -93,7 +98,7 @@
         background-color: #252627 !important;
         border-right: 1px solid #618485 !important;
     }
-    #brdwelcome, .crumbs, .pagepost, #onlinelist, .conr, .conl, .subscribelink, .blockform {
+    #brdwelcome, .crumbs, .pagepost, #onlinelist, .conr, .conl, .subscribelink, .blockform, h2 {
         padding-left: 15px !important;
         padding-right: 15px !important;
     }
