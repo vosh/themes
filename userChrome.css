@@ -130,7 +130,7 @@ background:#252627!important;
 {
     background:#252627!important;
     border:0!important;
-    border-right:1px solid #9999CC!important;
+    border-right:1px solid #75314b!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
 }
@@ -165,9 +165,9 @@ background:#252627!important;
 {
     font-family:"Terminus"!important;
     font-size: 12px!important;
-    border:0px!important;
+    border:1px solid #c64552!important;
     background:#252627!important;
-    color:#828282!important;
+    color:#e5e5f7!important;
     padding-bottom: 5px!important;
     -moz-appearance: none !important;
 }
@@ -176,11 +176,11 @@ background:#252627!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-# border-left:1px solid #9999CC!important;
-# border-top:1px solid #DCCBBB!important;
-    border-right:1px solid #9999CC!important;
-# border-bottom:1px solid #DCCBBB!important;
-    margin:1px 1px 0!important;
+ #border-left:1px solid #c64552!important;
+ border-top:1px solid #c64552!important;
+ border-right:1px solid #c64552!important;
+ border-bottom:1px solid #c64552!important;
+    margin:1px 1px 0 0!important;
     max-height:20px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
@@ -190,8 +190,14 @@ background:#252627!important;
 #main-window #tabbrowser-tabs tab[selected]
 {
 background:#252627!important;
-    color:#9999CC!important;
+    color:#c64552!important;
 }
+#main-window #tabbrowser-tabs tab:not[selected]
+{
+background:#252627!important;
+    color:#e5e5f7!important;
+}
+
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
@@ -205,7 +211,7 @@ background:#252627!important;
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#9999CC!important;
+    color:#75314b!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
@@ -233,13 +239,14 @@ background:#252627!important;
     font-family:"Terminus"!important;
     font-size: 12px!important;
     max-width:140px!important;
+    color:#828F4A!important;
 }
 
 #main-window[sizemode="fullscreen"] #TabsToolbar,
 #main-window[sizemode="normal"] #TabsToolbar,
 #main-window[sizemode="maximized"] #TabsToolbar
 {
-    margin:0px 0px 0 0!important;
+    margin:1px 1px 1px 1px!important;
     padding:0 0px 0px 0px!important;
 }
 #main-window #browser-border-start
