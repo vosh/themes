@@ -130,7 +130,7 @@ background:#252627!important;
 {
     background:#252627!important;
     border:0!important;
-    border-right:1px solid #75314b!important;
+    border-right:1px solid #9999CC!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
 }
@@ -150,7 +150,7 @@ background:#252627!important;
 }
 #urlbar #notification-popup-box .notification-anchor-icon
 {
-    max-height:20px!important;
+    max-height:15px!important;
     max-width:10px!important;
 }
 #main-window[sizemode="fullscreen"] #urlbar,
@@ -165,9 +165,9 @@ background:#252627!important;
 {
     font-family:"Terminus"!important;
     font-size: 12px!important;
-    border:1px solid #c64552!important;
-    background:#252627!important;
-    color:#e5e5f7!important;
+    border:1px solid #CC9999!important;
+    background:#666666!important;
+    color:#99CC99!important;
     padding-bottom: 5px!important;
     -moz-appearance: none !important;
 }
@@ -176,32 +176,39 @@ background:#252627!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
- #border-left:1px solid #c64552!important;
- border-top:1px solid #c64552!important;
- border-right:1px solid #c64552!important;
- border-bottom:1px solid #c64552!important;
-    margin:1px 1px 0 0!important;
-    max-height:20px!important;
+ /*border-left:1px solid #CC9999!important;
+ border-top:1px solid #CC9999!important;
+ border-right:1px solid #CC9999!important;
+ border-bottom:1px solid #CC9999!important;*/
+    border: none!important;
+    margin:0px 5px 0px 5px!important;
+    max-height:13px!important;
+    min-height:13px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
     -moz-margin-end:0!important;
 }
+tab[titlechanged="true"] {
+    text-decoration: blink !important;
+    color: #CC9999 !important;
+}
 #main-window #tabbrowser-tabs tab[selected]
 {
-background:#252627!important;
-    color:#c64552!important;
+	background:#CC9999!important;
+    color:#FFFFCC!important;
 }
 #main-window #tabbrowser-tabs tab:not[selected]
 {
-background:#252627!important;
-    color:#e5e5f7!important;
+	background:#999999!important;
+    color:#99CC99!important;
 }
 
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
-    max-height:20px!important;
+    max-height:13px!important;
+    min-height:13px!important;
     max-width:10px!important;
     margin-top:2px!important;
 }
@@ -211,7 +218,8 @@ background:#252627!important;
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#75314b!important;
+	background:#999999!important;
+    color:#252627!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
@@ -239,7 +247,7 @@ background:#252627!important;
     font-family:"Terminus"!important;
     font-size: 12px!important;
     max-width:140px!important;
-    color:#828F4A!important;
+    color:#99CC99!important;
 }
 
 #main-window[sizemode="fullscreen"] #TabsToolbar,
