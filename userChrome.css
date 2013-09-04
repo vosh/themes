@@ -1,7 +1,5 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
-/*vosh userchrome.css*/
-
 /*Scrollbars*/
 
 notificationbox {
@@ -35,7 +33,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #bookmarkstoolbar,
 #bookmarkstoolbar-container
 {
-  background:#252627 !important;
+  background:#2a2a2a !important;
   border-style: none !important;
   max-height:20px!important;
   -moz-appearance: none !important;
@@ -43,7 +41,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 
 #main
 {
-background:#252627!important;
+background:#2a2a2a!important;
 -moz-appearance: none !important;
 }
 
@@ -63,20 +61,20 @@ background:#252627!important;
 #back-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 11px, 11px, 0)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #forward-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 22px, 11px, 11px)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #reload-button .toolbarbutton-icon,
 #urlbar-reload-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 33px, 11px, 22px)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #stop-button .toolbarbutton-icon,
@@ -84,42 +82,42 @@ background:#252627!important;
 #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 44px, 11px, 33px)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #new-tab-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 55px, 11px, 44px)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #appmenu-button .button-icon
 {
     -moz-image-region:rect(0, 66px, 11px, 55px)!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #main-window[sizemode="normal"] .toolbarbutton-1
 {
     margin-top:0px!important;
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]:hover
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
 
 /* Bookmarks BAR */
 #bookmarkstoolbar, #bookmarkstoolbar-container
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     border:0!important;
     color:#ffffff!important;
 -moz-appearance: none !important;
@@ -128,9 +126,9 @@ background:#252627!important;
 /* URL BAR */
 #urlbar
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     border:0!important;
-    border-right:1px solid #9999CC!important;
+    border-right:1px solid #8fc7ff!important;
     color:#5acbbe!important;
     -moz-appearance: none !important;
 }
@@ -140,7 +138,7 @@ background:#252627!important;
 }
 #urlbar #notification-popup-box
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     border-right:1px solid #43648E!important;
     max-height:20px!important;
     max-width:16px!important;
@@ -150,7 +148,7 @@ background:#252627!important;
 }
 #urlbar #notification-popup-box .notification-anchor-icon
 {
-    max-height:15px!important;
+    max-height:20px!important;
     max-width:10px!important;
 }
 #main-window[sizemode="fullscreen"] #urlbar,
@@ -165,9 +163,9 @@ background:#252627!important;
 {
     font-family:"Terminus"!important;
     font-size: 12px!important;
-    border:1px solid #CC9999!important;
-    background:#666666!important;
-    color:#99CC99!important;
+    border:0px!important;
+    background:#2a2a2a!important;
+    color:#c78fff!important;
     padding-bottom: 5px!important;
     -moz-appearance: none !important;
 }
@@ -176,39 +174,28 @@ background:#252627!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
- /*border-left:1px solid #CC9999!important;
- border-top:1px solid #CC9999!important;
- border-right:1px solid #CC9999!important;
- border-bottom:1px solid #CC9999!important;*/
-    border: none!important;
-    margin:0px 5px 0px 5px!important;
-    max-height:13px!important;
-    min-height:13px!important;
+# border-left:1px solid #8fc7ff!important;
+# border-top:1px solid #252627!important;
+    border-right:1px solid #8fc7ff!important;
+    border-bottom:1px solid #8fc7ff!important;
+    margin:1px 1px 0!important;
+    max-height:15px!important;
+    min-height:15px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
     -moz-margin-end:0!important;
 }
-tab[titlechanged="true"] {
-    text-decoration: blink !important;
-    color: #CC9999 !important;
-}
 #main-window #tabbrowser-tabs tab[selected]
 {
-	background:#CC9999!important;
-    color:#FFFFCC!important;
+background:#2a2a2a!important;
+    color:#ff8fc7!important;
 }
-#main-window #tabbrowser-tabs tab:not[selected]
-{
-	background:#999999!important;
-    color:#99CC99!important;
-}
-
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
-    max-height:13px!important;
-    min-height:13px!important;
+    max-height:15px!important;
+    min-height:15px!important;
     max-width:10px!important;
     margin-top:2px!important;
 }
@@ -218,8 +205,7 @@ tab[titlechanged="true"] {
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-	background:#999999!important;
-    color:#252627!important;
+    color:#d66590!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
@@ -247,24 +233,23 @@ tab[titlechanged="true"] {
     font-family:"Terminus"!important;
     font-size: 12px!important;
     max-width:140px!important;
-    color:#99CC99!important;
 }
 
 #main-window[sizemode="fullscreen"] #TabsToolbar,
 #main-window[sizemode="normal"] #TabsToolbar,
 #main-window[sizemode="maximized"] #TabsToolbar
 {
-    margin:1px 1px 1px 1px!important;
+    margin:0px 0px 0 0!important;
     padding:0 0px 0px 0px!important;
 }
 #main-window #browser-border-start
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     border:0!important;
 }
 #main-window #appmenu-button
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     border:0!important;
     padding:1px 0px!important;
     min-width:16px!important;
@@ -284,6 +269,6 @@ tab[titlechanged="true"] {
 #appcontent > #content,
 #appcontent > #content > tabbox > tabpanels
 {
-    background:#252627!important;
+    background:#2a2a2a!important;
     -moz-appearance: none !important;
 }
