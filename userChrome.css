@@ -33,7 +33,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 #bookmarkstoolbar,
 #bookmarkstoolbar-container
 {
-  background:#2a2a2a !important;
+  background:#252627 !important;
   border-style: none !important;
   max-height:20px!important;
   -moz-appearance: none !important;
@@ -41,7 +41,7 @@ browser[type="content-primary"], browser[type="content-targetable"] {
 
 #main
 {
-background:#2a2a2a!important;
+background:#252627!important;
 -moz-appearance: none !important;
 }
 
@@ -61,20 +61,20 @@ background:#2a2a2a!important;
 #back-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 11px, 11px, 0)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #forward-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 22px, 11px, 11px)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #reload-button .toolbarbutton-icon,
 #urlbar-reload-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 33px, 11px, 22px)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #stop-button .toolbarbutton-icon,
@@ -82,42 +82,42 @@ background:#2a2a2a!important;
 #tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 44px, 11px, 33px)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #new-tab-button .toolbarbutton-icon
 {
     -moz-image-region:rect(0, 55px, 11px, 44px)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #appmenu-button .button-icon
 {
     -moz-image-region:rect(0, 66px, 11px, 55px)!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window[sizemode="normal"] .toolbarbutton-1
 {
     margin-top:0px!important;
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 #main-window *[id*="-button"]:hover
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
 
 /* Bookmarks BAR */
 #bookmarkstoolbar, #bookmarkstoolbar-container
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     border:0!important;
     color:#ffffff!important;
 -moz-appearance: none !important;
@@ -126,10 +126,10 @@ background:#2a2a2a!important;
 /* URL BAR */
 #urlbar
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     border:0!important;
-    border-right:1px solid #8fc7ff!important;
-    color:#5acbbe!important;
+    border-right:none!important;
+    color:#6D9E3F!important;
     -moz-appearance: none !important;
 }
 #urlbar:hover
@@ -138,7 +138,7 @@ background:#2a2a2a!important;
 }
 #urlbar #notification-popup-box
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     border-right:1px solid #43648E!important;
     max-height:20px!important;
     max-width:16px!important;
@@ -155,7 +155,7 @@ background:#2a2a2a!important;
 #main-window[sizemode="maximized"] #urlbar,
 #main-window[sizemode="maximized"] #urlbar
 {
-    margin:0px 1px 0!important;
+    margin:0px 0px 0px 0px!important;
 }
 
 /* TABS */
@@ -164,9 +164,9 @@ background:#2a2a2a!important;
     font-family:"Terminus"!important;
     font-size: 12px!important;
     border:0px!important;
-    background:#2a2a2a!important;
-    color:#c78fff!important;
-    padding-bottom: 5px!important;
+    background:#252627!important;
+    color:#ededf7!important;
+    padding-bottom: 0px!important;
     -moz-appearance: none !important;
 }
 
@@ -174,13 +174,13 @@ background:#2a2a2a!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-# border-left:1px solid #8fc7ff!important;
-# border-top:1px solid #252627!important;
-    border-right:1px solid #8fc7ff!important;
-    border-bottom:1px solid #8fc7ff!important;
-    margin:1px 1px 0!important;
-    max-height:15px!important;
-    min-height:15px!important;
+	border-left:none!important;
+	border-top:none!important;
+    border-right:none!important;
+    border-bottom:none!important;
+    margin:0px 0px 0px 0px!important;
+    max-height:12px!important;
+    min-height:12px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
@@ -188,14 +188,14 @@ background:#2a2a2a!important;
 }
 #main-window #tabbrowser-tabs tab[selected]
 {
-background:#2a2a2a!important;
-    color:#ff8fc7!important;
+background:#618485!important;
+    color:#ededf7!important;
 }
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
-    max-height:15px!important;
-    min-height:15px!important;
+    max-height:12px!important;
+    min-height:12px!important;
     max-width:10px!important;
     margin-top:2px!important;
 }
@@ -239,17 +239,17 @@ background:#2a2a2a!important;
 #main-window[sizemode="normal"] #TabsToolbar,
 #main-window[sizemode="maximized"] #TabsToolbar
 {
-    margin:0px 0px 0 0!important;
-    padding:0 0px 0px 0px!important;
+    margin:0px 0px 0px 0px!important;
+    padding:0px 0px 0px 0px!important;
 }
 #main-window #browser-border-start
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     border:0!important;
 }
 #main-window #appmenu-button
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     border:0!important;
     padding:1px 0px!important;
     min-width:16px!important;
@@ -269,6 +269,6 @@ background:#2a2a2a!important;
 #appcontent > #content,
 #appcontent > #content > tabbox > tabpanels
 {
-    background:#2a2a2a!important;
+    background:#252627!important;
     -moz-appearance: none !important;
 }
