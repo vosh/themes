@@ -1,0 +1,125 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain(crunchbang.org), url(www.crunchbang.org), url-prefix(www.crunchbang.org) {
+
+    *{
+        font-family: terminus !important;
+    }
+    body, html, .punwrap {
+        background-color: #252627 !important;
+    }
+    #s, .activetopics, .codebox, #masthead, #punindex, #brdheader, #brdmenu, #brdwelcome, #brdmain, #fini, #footermenu a, #brdfooternav, .inbox, .blockpost h2, .clearb, .tcmod, .community_info, .quotebox, .tc2, .tc3, .tcl, .tcr {
+        background-image: none !important;
+        background-color: #252627 !important;
+        color: #dccebb !important;
+        border: 1px solid #618485 !important;
+    }
+    .pageslabel a {
+        border-right:  1px solid #618485 !important;
+    }
+    .buttons, .inform, .infldset, .pun, .blockform, .quickpost, h2, .crumbs, .clearer, .postlink {
+        background-image: none !important;
+        background-color: #252627 !important;
+        color: #dccebb !important;
+        border: 0px !important;
+    }
+    .subscribelink, .pagepost, .linksb {
+        border-top: 1px solid #618485 !important;
+        border-right: 0px !important;
+        border-left: 0px !important;
+        border-bottom: 0px !important;
+    }
+    .inbox, #pagepost, .postlinksb, #postreview, .rowodd, .tcl {
+        border-top: 0px !important;
+        border-right: 0px !important;
+        border-left: 0px !important;
+        border-bottom: 1px solid #618485 !important;
+    }
+    .postright, .postleft, .postbody, .rowodd, #idx3.blocktable, .subscribelink.clearb {
+        border: none !important;
+    }
+    .inbox {
+        border: 1px solid #618485 !important;
+    }
+    .clearb, .infldset, .inform, .box, .postright, .inbox.crumbsplus {
+        border: 0px !important;
+    }
+    #box, #punindex, .blockpost {
+        border: 0px !important;
+    }
+    h2, .tc1, .tc2, .tc3, .tcr, .tcr a, .datetimeposted {
+        color: #479ebb !important;
+    }
+    h3 a, .tclcon a, .linkst a, #onlinelist, #onlinelist a, .pagepost a, .postedit, .postfootright a {
+        color: #c64552 !important;
+    }
+    .forumdesc, .stickytext, .closedtext, .crumbs, .postleft a  {
+        color: #de9e4e !important;
+    }
+    .byuser {
+        color: #75314b !important;
+    }
+    .postfootleft {
+        visibility: hidden !important;
+        border: 0px !important;
+    }
+    .postfoot {
+        background: transparent !important;
+        border: none !important;
+    }
+    .postfootright, .postfootright a {
+        border: 1px !important;
+    }
+    .inbox {
+        color: #75314b !important;
+    }
+    .quotebox, .quotebox a {
+        color: #8ec553 !important;
+    }
+    .fortunes {
+        height: 0px;
+    }
+    .postsignature {
+        height: 0px;
+    }
+    .postbody {
+        background-color: #252627 !important;
+        border-left: 1px solid #618485 !important;
+        border-bottom: 1px solid #618485 !important;
+        border-right: 1px solid #618485 !important;
+    }
+    .blockpost rowodd {
+        border: 0px !important;
+    }
+    .blocktable, #idx1, #idx2, #idx3 {
+        border: none !important;
+    }
+    #brdstats {
+        border: none !important;
+        padding-top: 9px !important;
+    }
+    #navindex, #navindex a, #isactive, #navuserlist a, #navrules a, #navsearch a, #navprofile a, #navpm a, #navlogout a, #navregister a, #navlogin a {
+        background-color: #252627 !important;
+        border-right: 1px solid #618485 !important;
+    }
+    #brdwelcome, .crumbs, .pagepost, #onlinelist, .conr, .conl, .subscribelink, .blockform {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .conr {
+        visibility: hidden !important;
+    }
+    .community_info_wrapper, .community_info {
+        height: 0px !important;
+        visibility: hidden;
+    }
+    subscribelink {
+        border:none !important;
+    }
+    #fini, .footermenu {
+        height: 0px !important;
+        visibility: hidden !important;
+    }
+    #qjump {
+        padding-bottom: 5px !important;
+    }
+}
