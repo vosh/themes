@@ -1,5 +1,7 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
+/*vosh userchrome.css*/
+
 /*Scrollbars*/
 
 notificationbox {
@@ -128,7 +130,7 @@ background:#252627!important;
 {
     background:#252627!important;
     border:0!important;
-    border-right:none!important;
+    border-right:1px solid #85678F!important;
     color:#6D9E3F!important;
     -moz-appearance: none !important;
 }
@@ -148,14 +150,14 @@ background:#252627!important;
 }
 #urlbar #notification-popup-box .notification-anchor-icon
 {
-    max-height:20px!important;
+    max-height:15px!important;
     max-width:10px!important;
 }
 #main-window[sizemode="fullscreen"] #urlbar,
 #main-window[sizemode="maximized"] #urlbar,
 #main-window[sizemode="maximized"] #urlbar
 {
-    margin:0px 0px 0px 0px!important;
+    margin:0px 0px 0!important;
 }
 
 /* TABS */
@@ -163,10 +165,11 @@ background:#252627!important;
 {
     font-family:"Terminus"!important;
     font-size: 12px!important;
-    border:0px!important;
+    border:0px solid #59918a!important;
     background:#252627!important;
     color:#ededf7!important;
-    padding-bottom: 0px!important;
+    padding-bottom: 5px!important;
+    padding-top: 0px!important; 
     -moz-appearance: none !important;
 }
 
@@ -174,30 +177,35 @@ background:#252627!important;
 #main-window[sizemode="fullscreen"] #tabbrowser-tabs tab,
 #main-window[sizemode="normal"] #tabbrowser-tabs tab
 {
-	border-left:none!important;
-	border-top:none!important;
-    border-right:none!important;
-    border-bottom:none!important;
-    margin:0px 0px 0px 0px!important;
-    max-height:12px!important;
-    min-height:12px!important;
+	border: none!important;
+    margin:0px 5px 0px 5px!important;
+    max-height:13px!important;
+    min-height:13px!important;
+    padding-top:0px!important;
     padding-left:5px!important;
     border-radius:0 0 0px 0px!important;
     -moz-appearance: none !important;
     -moz-margin-end:0!important;
 }
+
 #main-window #tabbrowser-tabs tab[selected]
 {
-background:#618485!important;
+	background:#618485!important;
+    color:#252627!important;
+}
+#main-window #tabbrowser-tabs tab:not[selected]
+{
+	background:#252627!important;
     color:#ededf7!important;
 }
+
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
 {
-    max-height:12px!important;
-    min-height:12px!important;
+    max-height:13px!important;
+    min-height:13px!important;
     max-width:10px!important;
-    margin-top:2px!important;
+    margin-top:0px!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]
 {
@@ -205,7 +213,8 @@ background:#618485!important;
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#d66590!important;
+	background:#252627!important;
+    color:#75314b!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
@@ -217,13 +226,16 @@ background:#618485!important;
     max-width:24px!important;
     min-width:24px!important;
 }
-#main-window #tabbrowser-tabs .scrollbutton-up,
-#main-window #tabbrowser-tabs .scrollbutton-down,
-#main-window #tabbrowser-tabs tab .tab-close-button,
-#main-window #tabbrowser-tabs tab[pinned] .tab-close-button,
-#main-window #tabbrowser-tabs tab .tab-icon-image
-{
-    display:none!important;
+
+.tabbrowser-tab:not([pinned]) .tab-throbber,
+.tabbrowser-tab .tab-close-button,
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
+   visibility: collapse !important;
+}
+
+#main-window .tabbrowser-tab .tab-stack {
+  height: 26px !important;
+  min-height: 26px !important;
 }
 
 /* MAIN WINDOW */
@@ -233,6 +245,7 @@ background:#618485!important;
     font-family:"Terminus"!important;
     font-size: 12px!important;
     max-width:140px!important;
+    color:#75314b!important;
 }
 
 #main-window[sizemode="fullscreen"] #TabsToolbar,
@@ -240,7 +253,7 @@ background:#618485!important;
 #main-window[sizemode="maximized"] #TabsToolbar
 {
     margin:0px 0px 0px 0px!important;
-    padding:0px 0px 0px 0px!important;
+    padding:0 0px 0px 0px!important;
 }
 #main-window #browser-border-start
 {
@@ -251,7 +264,7 @@ background:#618485!important;
 {
     background:#252627!important;
     border:0!important;
-    padding:1px 0px!important;
+    padding:0px 0px!important;
     min-width:16px!important;
     box-shadow:none!important;
     -moz-appearance: none !important;
